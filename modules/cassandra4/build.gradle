@@ -1,0 +1,6 @@
+description = "TestContainers :: Cassandra4"
+
+dependencies {
+    compile project(":database-commons")
+    compile "com.datastax.oss:java-driver-core:4.0.0"
+}
